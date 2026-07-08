@@ -9,6 +9,8 @@ Faker
 python-slugify
 
 
-# to install these requirements in the virtual environment, run the following
-# command in the terminal:
+# to install these requirements in the virtual environment at the beginning of
+# creating the framework, run the following command in the terminal.  These packages are
+# specifically recognized by pytest.  Note: you cannot do this with playwright;
+# it must be installed manually (using "playwright install").
 # pip install -r requirements.txt
