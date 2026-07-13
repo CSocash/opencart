@@ -1,6 +1,6 @@
 
 class Config:
-    email="lunatuna@yopmail.com"
+    email="lunatuna@yopmail.comm"
     password="luna123abc"
 
     invalid_email="pavanol123@abc.com"
