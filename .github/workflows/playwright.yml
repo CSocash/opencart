@@ -25,6 +25,13 @@ jobs:
     - uses: actions/upload-artifact@v5
       if: ${{ !cancelled() }}
       with:
-        name: playwright-traces
+        name: test-results
         path: test-results/
-              reports/traces
+        if-no-files-found: warn
+
+    - uses: actions/upload-artifact@v5
+      if: ${{ !cancelled() }}
+      with:
+        name: playwright-traces
+        path: reports/traces/
+        if-no-files-found: warn
